@@ -1,0 +1,23 @@
+- name: Veracode Container/IaC/Secrets Scanning GitHub Action
+  # You may pin to the exact commit or the version.
+  # uses: veracode/container_iac_secrets_scanning@1ede62ecb234405d70194d754ff7050486f28ee7
+  uses: veracode/container_iac_secrets_scanning@v1.0.0
+  with:
+    # vid
+    vid: 
+    # vkey
+    vkey: 
+    # GitHub token to access the repo
+    github-token: # default is ${{ github.token }}
+    # Scan command to run (scan|sbon)
+    command: # default is scan
+    # location of the scan source for the target type.
+    source: # default is .
+    # format in which to output the scan results. Enter one of the following values (json|table)
+    format: # default is json
+    # Which type of scan to run (image|archive|repo|directory)
+    type: # default is directory
+    # debug
+    debug: # optional, default is false
+    # fail_build
+    fail_build: # optional, default is false
