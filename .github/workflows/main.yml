@@ -17,8 +17,8 @@ jobs:
          - name: Verracode Container/IaC/Secrets action step1
            uses: veracode/container_iac_secrets_scanning@v1.0.0
            with:
-             vid: ${{ secrets.V_ID }}
-             vkey: ${{ secrets.V_KEY }}
+             vid: ${{ secrets.VID }}
+             vkey: ${{ secrets.VKEY }}
              command: "scan" 
              type: "directory"
              source: "./"
