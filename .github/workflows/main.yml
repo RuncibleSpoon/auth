@@ -4,9 +4,9 @@
   uses: veracode/container_iac_secrets_scanning@v1.0.0
   with:
     # vid
-    vid: 
+    vid: ${{ SECRETS.V_ID }}
     # vkey
-    vkey: 
+    vkey: ${{ SECRETS.V_KEY }}
     # GitHub token to access the repo
     github-token: # default is ${{ github.token }}
     # Scan command to run (scan|sbon)
