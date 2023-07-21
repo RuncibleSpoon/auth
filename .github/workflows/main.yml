@@ -1,4 +1,4 @@
-- name: Veracode Container/IaC/Secrets Scanning GitHub Action
+name: Veracode Container/IaC/Secrets Scanning GitHub Action
   # You may pin to the exact commit or the version.
   # uses: veracode/container_iac_secrets_scanning@1ede62ecb234405d70194d754ff7050486f28ee7
   uses: veracode/container_iac_secrets_scanning@v1.0.0
