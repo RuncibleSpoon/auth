@@ -1,4 +1,4 @@
-FROM nginx:1.23.3
+FROM nginx:1.27.5
 
 RUN mkdir /etc/nginx/njs
 
